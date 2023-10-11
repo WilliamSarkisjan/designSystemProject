@@ -1,0 +1,30 @@
+@import "../../../../variables";
+
+.atomButton {
+  display: inline-flex;
+  min-width: 120px;
+  min-height: 40px;
+  border: 2px solid transparent;
+  box-shadow: unset;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 8px;
+  background-color: $brand-primary;
+  cursor: pointer;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%;
+  color: #fff;
+}
+
+.atomButton:hover {
+  background-color: $other-hover; /* Change the background color on hover */
+}
+
+.atomButton:focus {
+  border: 2px solid $other-hover;
+  background-color: $brand-primary;
+}

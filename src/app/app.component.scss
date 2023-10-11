@@ -1,0 +1,21 @@
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.buttonDiv {
+  height: auto;
+  border-style: dotted;
+  border-width: 5px;
+  padding: 20px;
+  border-color: #e967e9;
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 20px;
+}

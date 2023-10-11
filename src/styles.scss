@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "variables";
+
+body {
+  font-family: "Inter";
+}
+
+h1 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 150%; /* 36px */
+  margin: 0px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 130%; /* 26px */
+  margin: 0px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+  margin: 0px;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body {
+  background: #ecf0f1;
+}
